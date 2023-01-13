@@ -1,6 +1,15 @@
+:root{
+   --yellow: #FAC521;
+   --mainBlack: #10100F;
+   --footerBlack: #191A17;
+
+}
+
+
 body{
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Noto Sans Symbols', sans-serif;
+    color: var(--yellow);
 }
 
 
