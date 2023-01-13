@@ -1,0 +1,18 @@
+
+#container{
+    display: flex;
+    height: 100vh;
+}
+
+
+#box1-image-son{
+    width: 50%;
+    height: 50%;
+    border-right: 1px solid red;
+}
+
+
+#box2-lecteur{
+    width: 50%;
+    height: 50%;
+}
