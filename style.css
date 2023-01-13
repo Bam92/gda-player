@@ -1,3 +1,4 @@
+
 body{
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Noto Sans Symbols', sans-serif;
@@ -32,4 +33,21 @@ body{
 }
 .menu li, a{
  text-decoration: none;
+}.lecteur nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
+.lecteur nav ul{
+    display: flex;
+    gap: 10px;
+}
+
+.lecteur nav ul li{
+   list-style: none;
+   text-decoration: none;
+}
+
+.lecteur nav ul li a{
+    text-decoration: none;
+    }
