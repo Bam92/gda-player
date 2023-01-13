@@ -1,20 +1,27 @@
 body{
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Noto Sans Symbols', sans-serif;
-}
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Noto Sans Symbols', sans-serif; */
+  padding: 0;
+  margin: 0;
+  }
 
 
 
 #container{
     display: flex;
     height: 100vh;
+    overflow: hidden;
 }
 
 
 #box1-image-son{
     width: 50%;
     height: 50%;
-    border-right: 1px solid red;
+    /* border-right: 1px solid red; */
+}
+
+#box1-image-son img{
+  width: 50vw;
 }
 
 
