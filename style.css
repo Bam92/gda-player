@@ -1,22 +1,35 @@
-body {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 100vh;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-
+body{
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Noto Sans Symbols', sans-serif;
 }
 
-.img-son img {
-  width: 50vw;
+
+
+#container{
+    display: flex;
+    height: 100vh;
 }
 
-.lecteur {
-  width: 50vw;
+
+#box1-image-son{
+    width: 50%;
+    height: 50%;
+    border-right: 1px solid red;
 }
 
-li {
-   text-decoration: none;
+
+#box2-lecteur{
+    width: 50%;
+    height: 50%;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+.menu li, a{
+ text-decoration: none;
 }
