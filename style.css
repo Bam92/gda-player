@@ -1,18 +1,14 @@
+
 :root{
    --yellow: #FAC521;
    --mainBlack: #10100F;
    --footerBlack: #191A17;
-
 }
-
 
 body{
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Noto Sans Symbols', sans-serif;
-    color: var(--yellow);
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Noto Sans Symbols', sans-serif; */
 }
-
-
 
 #container{
     display: flex;
@@ -41,4 +37,28 @@ body{
 }
 .menu li, a{
  text-decoration: none;
+}.lecteur nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    background-color:black;
+}
+.lecteur nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+.lecteur nav ul li{
+   list-style: none;
+   text-decoration: none;
+}
+
+.lecteur nav ul li a{
+    text-decoration: none;
+    color: white;
+    }
+
+.lecteur nav ul li span{
+ color: yellow;
 }
