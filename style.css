@@ -37,10 +37,12 @@ body{
     display: flex;
     align-items: center;
     gap: 10px;
+    color: white;
+    background-color:black;
 }
 .lecteur nav ul{
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .lecteur nav ul li{
@@ -50,4 +52,9 @@ body{
 
 .lecteur nav ul li a{
     text-decoration: none;
+    color: white;
     }
+
+.lecteur nav ul li span{
+ color: yellow;
+}
