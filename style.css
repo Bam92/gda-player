@@ -1,8 +1,15 @@
+
 body {
   font-family: "Poppins", sans-serif;
   /* font-family: 'Noto Sans Symbols', sans-serif; */
   padding: 0;
   margin: 0;
+
+:root{
+   --yellow: #FAC521;
+   --mainBlack: #10100F;
+   --footerBlack: #191A17;
+
 }
 
 #container {
