@@ -1,3 +1,10 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Noto Sans Symbols', sans-serif; */
+  padding: 0;
+  margin: 0;
+
 :root{
    --yellow: #FAC521;
    --mainBlack: #10100F;
@@ -5,40 +12,65 @@
 
 }
 
-
-body{
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Noto Sans Symbols', sans-serif;
-    color: var(--yellow);
+#container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
 }
 
-
-
-#container{
-    display: flex;
-    height: 100vh;
+#box1-image-son {
+  width: 50%;
+  height: 50%;
+  /* border-right: 1px solid red; */
 }
 
-
-#box1-image-son{
-    width: 50%;
-    height: 50%;
-    border-right: 1px solid red;
+#box1-image-son img {
+  width: 50vw;
 }
 
-
-#box2-lecteur{
-    width: 50%;
-    height: 50%;
+#box2-lecteur {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  height: 100vh;
+  background-color: #191A17;
+  color: white;
 }
 
-.menu{
-    display: flex;
-    list-style: none;
-    align-items: flex-start;
-    justify-content: space-around;
-    
+.menu {
+  display: flex;
+  list-style: none;
+  align-items: flex-start;
+  justify-content: space-around;
 }
-.menu li, a{
- text-decoration: none;
+.menu li,
+a {
+  text-decoration: none;
+}
+
+.controls{
+  background-color: #10100F;
+}
+
+.song-image{
+  width: 15vw;
+  height: 13vw;
+  overflow: hidden;
+}
+
+.songs-control{
+  width: 15vw;
+  height: 40vh;
+  position: fixed;
+  top: 60vh;
+  background-color: #191A17;
+}
+
+.songs-control img{
+  width: 15vw;
+}
+
+.progress-control{
+  margin-left: 17vw;
 }
